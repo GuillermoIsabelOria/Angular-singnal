@@ -1,0 +1,11 @@
+<h3>Contador</h3>
+<hr/>
+<p>Valor del contador: {{contador}}</p>
+<button (click)="variation(1)">+1</button>
+<button (click)="reset()">Reset</button>
+<button (click)="variation(-1)">-1</button>
+<hr/>
+
+<p>Valor de la señal {{counterSignal()}}</p>
+
+<router-outlet></router-outlet>
